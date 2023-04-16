@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen } from "@testing-library/react";
 import '@testing-library/jest-dom';
-import filterEmoji from "./filterEmoji";
-import EmojiResults from "./EmojiResults";
+import filterEmoji from "../filterEmoji";
+import EmojiResults from "../EmojiResults";
 
 describe("EmojiResults component", () => {
   test("renders filtered emoji list", () => {

@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import '@testing-library/jest-dom';
-import Header from "./Header";
+import Header from "../Header";
 
 describe("Header component", () => {
   test("renders header correctly", () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import '@testing-library/jest-dom';
-import EmojiResults from "./EmojiResults";
+import EmojiResults from "../EmojiResults";
 
 describe("EmojiResults component", () => {
   test("renders emoji list on initial load", () => {
